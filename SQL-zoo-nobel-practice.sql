@@ -54,4 +54,14 @@ FROM nobel
 Where subject = 'Medicine' AND yr < 1910
 OR subject = 'Literature' AND yr >= 2004
 
+-- Find all details of the prize won by PETER GRÜNBERG
+SELECT *
+FROM nobel
+WHERE winner = 'Peter Grünberg'
+
+-- Find all details of the prize won by EUGENE O'NEILL
+SELECT *
+FROM nobel
+WHERE winner = 'Eugene O''neill'
+
 -- 
