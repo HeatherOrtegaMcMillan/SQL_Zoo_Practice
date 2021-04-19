@@ -81,6 +81,11 @@ WHERE area IN
     GROUP BY continent);
 
 -- 8. List each continent and the name of the country that comes first alphabetically.
+SELECT continent, MIN(name)
+FROM world
+GROUP BY continent;
+
+
 
 
 
